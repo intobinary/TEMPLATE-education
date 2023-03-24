@@ -1,0 +1,105 @@
+/*** RESET ***/
+a,
+a:hover,
+a:active,
+a:focus {
+	display:inline-block;
+	text-decoration:none;
+	background-color:transparent;
+	color:initial;
+	cursor: pointer;
+}
+/*** END RESET ***/
+
+/*** Z-INDEXES ***/
+.d-clouds.codoyo_features .d-clouds-wing { position: relative; z-index: 10; }
+.codoyo_banner-table-left { position: relative; z-index: 20; }
+/*** END Z-INDEXES ***/
+
+/*** COLORS ***/
+.codoyo_banner { background-color: #4CB0B3; }
+.d-clouds.codoyo_programs .d-clouds-content { background-color: #44B4E0; }
+.codoyo_menu .codoyo_menu-social-icon:nth-child(1) { color: #44B4E0 !important; }
+.d-clouds.codoyo_newsletter .d-clouds-content { background-color: #FF5C8F; }
+.codoyo_menu .codoyo_menu-social-icon:nth-child(3) { color: #FF5C8F !important; }
+.d-clouds.codoyo_videos .d-clouds-content { background-color: #FCB063; }
+.codoyo_menu .codoyo_menu-social-icon:nth-child(2) { color: #FCB063 !important; }
+.codoyo_features-content-box-icon { background-color: #E55733 !important; }
+
+.d-clouds { background-color: white; }
+.codoyo_videos-content-card { border-color: white; }
+/*** END COLORS ***/
+
+/*** MEDIA ***/
+.codoyo_programs {// background-image: url("../../assets/CodOyo/cloud-background.png"); }
+.codoyo_programs {
+	background-size: auto 100%;
+}
+
+.codoyo_ad-thumbnail-block-icon {// background-image: url("../../assets/CodOyo/icon_instagram_black.png"); }
+
+html, body {// background-image: url("../../assets/CodOyo/background-books.jpg"); }
+html, body {
+//	background-position: center;
+//	background-repeat: repeat;
+}
+/*** END MEDIA ***/
+
+/*** COMPONENTS ***/
+.codoyo_ad-thumbnail-block-img {
+	border-radius: 1em;
+}
+
+.codoyo_team-person-figure-img {
+	border-radius: 50%;
+}
+
+.codoyo_videos-content-card,
+.codoyo_videos-content-card-figure-img {
+	border-radius: .5em !important;
+}
+.codoyo_videos-content-card {
+	border-width: 1em; border-style: solid;
+}
+.codoyo_videos-content-card-hgroup {
+//	border: 1px solid red;
+}
+/*** END COMPONENTS ***/
+
+/*** INTERACTIVITY ***/
+.codoyo_videos,
+.codoyo_videos * { cursor: initial; }
+.codoyo_ad-thumbnail-block-img,
+.codoyo_ad-thumbnail-block-icon,
+.codoyo_videos-content-card,
+.codoyo_videos-content-card * { cursor: pointer; }
+/*** END INTERACTIVITY ***/
+
+/*** DECORATION ***/
+.d-clouds {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+.d-clouds.codoyo_features {
+	position: relative;
+}
+.d-clouds-wing {
+	display: block;
+	width: 100%; height: auto;
+}
+.d-clouds.codoyo_features .d-clouds-wing {
+	position: absolute; bottom: 100%;
+}
+/*** END DECORATION ***/
+
+/*** CSS HACKS ***/
+.codoyo_banner,
+.codoyo_banner * {
+//	align-items: flex-start;
+}
+
+.codoyo_team,
+.codoyo_team * {
+	justify-content: center;
+}
+/*** END CSS HACKS ***/

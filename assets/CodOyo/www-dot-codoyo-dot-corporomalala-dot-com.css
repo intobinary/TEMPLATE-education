@@ -102,4 +102,9 @@ html, body {
 .codoyo_team * {
 	justify-content: center;
 }
+
+.codoyo_generator {
+	height: 0 !important;
+	overflow: hidden !important;
+}
 /*** END CSS HACKS ***/
